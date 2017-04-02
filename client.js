@@ -6,7 +6,7 @@ horizon.onReady(function() {
 
 horizon.connect();
 
-var slackReactions = horizon('slack_reactions');
+var slackReactions = horizon('slack_events');
 
 var itemsHandler = (items) => {
   items.forEach((item) => {
